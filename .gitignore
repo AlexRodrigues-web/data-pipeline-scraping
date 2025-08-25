@@ -1,0 +1,23 @@
+﻿# python
+__pycache__/
+*.pyc
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/.user.yml
+
+# airflow
+airflow/logs/
+airflow/*.pid
+
+# streamlit
+streamlit/logs/
+.streamlit/
+
+# docker env
+.env
+*.env
+
+# misc
+.DS_Store
